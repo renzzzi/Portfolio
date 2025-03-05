@@ -3,54 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <meta name="description" content="A portfolio website about Renz David D. Espiritu">
+    <title>Renz's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <!-- Navbar -->
-    <nav>
-        <a href="#about-me">About Me</a>
-        <a href="#about-page">About Page</a>
-        <a href="#certificates">Certificates</a>
-    </nav>
-
+    <header>
+        <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#about-page">About Page</a>
+        </nav>
+    </header>
     <!-- About Me Section -->
-    <section id="about-me">
-        <div class="about-me">
-            <div class="circle"></div>
-            <p>
-                Hello! I'm Renz, a passionate developer with a love for creating programs. 
-                I am 18 years old currently studying at Western Mindanao State University,
-                pursuing a bachelor's degree in Computer Science. Stay tuned for more!
-            </p>
-        </div>
-    </section>
-
-    <!-- Certificates Section -->
-    <section id="certificates">
-        <h2>My Certificate</h2>
-        <div class="certificate-container">
-            <div class="certificate">
-                <img src="certificate.PNG" alt="Certificate Image" class="certificate-image">
-                <h3>Certificate in Web Development</h3>
-                <p>Issued by: <a href="https://freecodecamp.org" target="_blank">freeCodeCamp.org</a></p>
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <div class="about-me-container">
+                <div class="circle"></div>
+                <p>
+                    Hello! I'm Renz, a passionate developer with a love for creating programs. 
+                    I am 18 years old currently studying at Western Mindanao State University,
+                    pursuing a bachelor's degree in Computer Science. Stay tuned for more!
+                </p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Page Section -->
-    <section id="about-page">
-        <h2>About Page</h2>
-        <div class="future-features">
-            <div class="feature">
-                <h3>About Me</h3>
-                <p>The page talks about Renz David D. Espiritu</p>
+        <hr class="divider">
+
+        <!-- Certificates Section -->
+        <section id="certificates">
+            <h2>My Certificate</h2>
+            <div class="certificate-container">
+                <div class="certificate">
+                    <img src="certificate.PNG" alt="freeCodeCamp Certificate Image" class="certificate-image">
+                    <h3>Certificate in Web Development</h3>
+                    <p>Issued by: <a href="https://freecodecamp.org" target="_blank">freeCodeCamp.org</a></p>
+                </div>
             </div>
-            <div class="feature">
-                <h3>Certificates</h3>
-                <p>The portfolio showed the freeCodeCamp certification of Renz David D. Espiritu</p>
-        </div>
-    </section>
+        </section>
+
+        <hr class="divider">
+    </main>
+    <footer>
+        <!-- About Page Section -->
+        <section id="about-page">
+            <h2>About Page</h2>
+            <div class="future-features">
+                <div class="feature">
+                    <h3>About Me</h3>
+                    <p>The portfolio talks about Renz David D. Espiritu</p>
+                </div>
+                <div class="feature">
+                    <h3>Certificates</h3>
+                    <p>The portfolio showed the freeCodeCamp certification of Renz David D. Espiritu</p>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
